@@ -1,0 +1,27 @@
+# UK Wifi Calling
+payload:
+## EE
+  - DOMAIN,ee.co.uk
+  - DOMAIN-SUFFIX,ee.co.uk
+  - DOMAIN-SUFFIX,mnc030.mcc234.pub.3gppnetwork.org
+  - DOMAIN-SUFFIX,mnc033.mcc234.pub.3gppnetwork.org
+  - DOMAIN-SUFFIX,mnc071.mcc234.pub.3gppnetwork.org
+  - IP-CIDR,46.68.57.0/23
+  - IP-CIDR,46.68.58.0/23
+  - IP-CIDR,46.68.59.0/23
+## Vodafone UK
+  - DOMAIN,entsrv-uk.vodafone.com
+  - DOMAIN-SUFFIX,mnc015.mcc234.pub.3gppnetwork.org
+  - DOMAIN-SUFFIX,vodafone.co.uk
+  - IP-CIDR,88.82.0.0/19
+  - IP-CIDR,148.252.160.0/19
+  - IP-CIDR,172.67.140.185/32
+  - IP-CIDR,104.21.40.247/32
+  - IP-CIDR,85.205.100.0/24 # This IP section is also used by Vodafone DE(Both of them use this for RCS)
+## Three UK
+  - DOMAIN,esim-es-open-prod-tuk.esimcloud.net
+  - DOMAIN-SUFFIX,three.co.uk
+  - DOMAIN-SUFFIX,mnc020.mcc234.pub.3gppnetwork.org
+  - DOMAIN-SUFFIX,ls.apple.com
+  - IP-CIDR,185.153.236.0/24
+  - IP-CIDR,185.153.237.0/24
