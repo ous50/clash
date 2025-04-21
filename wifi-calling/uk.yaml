@@ -22,6 +22,5 @@ payload:
   - DOMAIN,esim-es-open-prod-tuk.esimcloud.net
   - DOMAIN-SUFFIX,three.co.uk
   - DOMAIN-SUFFIX,mnc020.mcc234.pub.3gppnetwork.org
-  - DOMAIN-SUFFIX,ls.apple.com
   - IP-CIDR,185.153.236.0/24
   - IP-CIDR,185.153.237.0/24
