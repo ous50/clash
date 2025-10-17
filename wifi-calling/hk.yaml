@@ -8,6 +8,6 @@ Payload:
 # CMHK
   - DOMAIN-SUFFIX,mnc012.mcc454.pub.3gppnetwork.org
   - DOMAIN,peo.prod.ondemandconnectivity.com
-  - DOMAIN,hk.chinamobile.com
+  - DOMAIN-SUFFIX,hk.chinamobile.com
 # 3HK
   - DOMAIN,hhk.prod.ondemandconnectivity.com
