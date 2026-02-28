@@ -1,0 +1,6 @@
+#无忧行
+payload:
+  - IP-CIDR,54.222.162.124/32
+  - DOMAIN-SUFFIX,justalkcloud.com
+  - DOMAIN-SUFFIX,cmpassport.com
+  - DOMAIN-SUFFIX,jegotrip.com.cn
