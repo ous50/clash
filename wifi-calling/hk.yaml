@@ -1,9 +1,33 @@
 payload:
+  # =======================================================
+  # UNIVERSAL HONG KONG WI-FI CALLING BYPASS RULES (2026)
+  # Includes all Major Operators, Sub-Brands, & MVNOs
+  # =======================================================
+
+  # 1. CSL Mobile / 1O1O / Club Sim / SUN Mobile
   - DOMAIN,csl.prod.ondemandconnectivity.com
-  - DOMAIN,epdg.epc.mnc000.mcc454.pub.3gppnetwork.org
-  - DOMAIN,ss.epdg.epc.mnc000.mcc454.pub.3gppnetwork.org
-  - DOMAIN,ss.epdg.epc.geo.mnc000.mcc454.pub.3gppnetwork.org
-  - DOMAIN-SUFFIX,hk.chinamobile.com
+  - DOMAIN-SUFFIX,mnc000.mcc454.pub.3gppnetwork.org
+
+  # 2. China Mobile Hong Kong (CMHK) / MySim
   - DOMAIN,peo.prod.ondemandconnectivity.com
+  - DOMAIN-SUFFIX,hk.chinamobile.com
   - DOMAIN-SUFFIX,mnc012.mcc454.pub.3gppnetwork.org
+
+  # 3. 3 Hong Kong / SUPREME / Mo+ / SoSIM
   - DOMAIN,hhk.prod.ondemandconnectivity.com
+  - DOMAIN-SUFFIX,mnc088.mcc454.pub.3gppnetwork.org
+
+  # 4. SmarTone / Birdie / ValueGB
+  - DOMAIN-SUFFIX,smartone.com
+  - DOMAIN-SUFFIX,mnc006.mcc454.pub.3gppnetwork.org
+  - DOMAIN-SUFFIX,mnc015.mcc454.pub.3gppnetwork.org
+  - DOMAIN-SUFFIX,mnc017.mcc454.pub.3gppnetwork.org
+
+  # 5. China Telecom HK (CTExcel)
+  - DOMAIN-SUFFIX,chinatelecomhk.com
+  - DOMAIN-SUFFIX,mnc007.mcc454.pub.3gppnetwork.org
+  - DOMAIN-SUFFIX,mnc011.mcc454.pub.3gppnetwork.org
+
+  # 6. Hong Kong Broadband Network (HKBN) Mobile Services
+  # (HKBN uses shared infrastructure leased from CMHK / SmarTone)
+  - DOMAIN-SUFFIX,hkbn.net
