@@ -25,8 +25,7 @@ payload:
 
   # 5. China Telecom HK (CTExcel)
   - DOMAIN-SUFFIX,chinatelecomhk.com
-  - DOMAIN-SUFFIX,mnc007.mcc454.pub.3gppnetwork.org
-  - DOMAIN-SUFFIX,mnc011.mcc454.pub.3gppnetwork.org
+  - DOMAIN-SUFFIX,mnc031.mcc454.pub.3gppnetwork.org
 
   # 6. Hong Kong Broadband Network (HKBN) Mobile Services
   # (HKBN uses shared infrastructure leased from CMHK / SmarTone)
